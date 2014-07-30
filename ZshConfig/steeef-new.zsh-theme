@@ -101,8 +101,14 @@ add-zsh-hook precmd steeef_precmd
 
 
 # rubies are red, and my rprompt is too
-RPROMPT='%{$fg[tan]%}$(rvm_ruby_prompt)%{$reset_color%}%'
+# RPROMPT='%{$fg[tan]%}$(rvm_ruby_prompt)%{$reset_color%}% ['%F{cyan}%*%f']'
+# RPROMPT='%{$reset_color%}['%F{cyan}%*%f']'
 
+RPROMPT='%F{cyan}[%D{%L:%M:%S %p}]%F{white}'
+TMOUT=1
+TRAPALRM() {
+    zle reset-prompt
+}
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[white]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%})"
