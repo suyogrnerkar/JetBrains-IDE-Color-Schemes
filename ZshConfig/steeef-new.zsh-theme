@@ -1,3 +1,8 @@
+# Terminal Color Codes for Best Appearance.
+# Color code for Terminal Background : #091C1A
+# Color code for Terminal Font       : #79F121
+# Opacity : .9
+
 # prompt style and colors based on Steve Losh's Prose theme:
 # http://github.com/sjl/oh-my-zsh/blob/master/themes/prose.zsh-theme
 #
