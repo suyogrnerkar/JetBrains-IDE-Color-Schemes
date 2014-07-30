@@ -104,7 +104,7 @@ add-zsh-hook precmd steeef_precmd
 # RPROMPT='%{$fg[tan]%}$(rvm_ruby_prompt)%{$reset_color%}% ['%F{cyan}%*%f']'
 # RPROMPT='%{$reset_color%}['%F{cyan}%*%f']'
 
-RPROMPT='%F{cyan}[%D{%L:%M:%S %p}]%F{white}'
+RPROMPT='%F{cyan}[%D{%L:%M:%S %p}]%{$reset_color%}'
 TMOUT=1
 TRAPALRM() {
     zle reset-prompt
@@ -203,4 +203,4 @@ function git_time_since_commit() {
 
 
 PROMPT=$'%{$hotpink%}%n%{$reset_color%}@%{$orange%}%m%{$reset_color%} in %{$turquoise%}%~%b%{$reset_color%}%{$reset_color%}$(git_time_since_commit)$vcs_info_msg_0_$(virtualenv_info)%{$reset_color%}
-%{$turquoise%}>>> %{$white%}'
+%{$turquoise%}>>> %{$reset_color%}'
