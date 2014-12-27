@@ -1,6 +1,7 @@
-							COLOR SHEMES FILES FOR PHP STORM.
+							COLOR SHEMES FILES FOR JETBRAINS IDE's
 
-All the custom made skins are added here. Some are by me, some are which I found interesting while browsing around. Thanks to all those who took effort making the custom skins.
+  All the custom made skins are added here. Some are by me, some are which I found interesting     
+while browsing around. Thanks to all those who took effort making the custom skins.
 
 
 USAGE :
